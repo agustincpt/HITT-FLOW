@@ -1,0 +1,12 @@
+.ring {
+  display: block;
+}
+
+.ring-bg {
+  opacity: 0.4;
+}
+
+.ring-progress {
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
