@@ -1,0 +1,57 @@
+.workout-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.ring-wrap {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  margin: 18px auto;
+}
+
+.ring-center {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.seconds {
+  font-size: 36px;
+}
+
+.dots {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 0 12px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #e1e1e6;
+}
+
+.dot.active {
+  background: var(--accent);
+}
+
+.dot.done {
+  background: var(--accent);
+  opacity: 0.55;
+}
+
+.controls {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
